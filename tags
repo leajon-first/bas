@@ -1,0 +1,347 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/missing --run aclocal-1.11$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ADD_QUERY_TO_EGG_H_	addQueryToEgg.h	20;"	d
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -I\/usr\/local\/include -I\/usr\/local\/include\/w3c-libwww -DHAVE_CONFIG_H -I\/usr\/local\/include\/egg2 -I\/usr\/local\/include\/scholar -I\/usr\/local\/include\/bigfile -I\/usr\/local\/include\/glib-2.0 -I\/usr\/local\/lib\/glib-2.0\/include  $/;"	m
+AM_LDFLAGS	Makefile	/^AM_LDFLAGS = -L\/usr\/local\/lib -lwwwxml -lxmltok -lxmlparse -lwwwinit -lwwwapp -lwwwhtml -lwwwtelnet -lwwwnews -lwwwhttp -lwwwmime -lwwwgopher -lwwwftp -lwwwfile -lwwwdir -lwwwcache -lwwwstream -lwwwmux -lwwwtrans -lwwwcore -lwwwutils -lmd5 -ldl -L\/usr\/local\/lib -lglib-2.0  $/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/missing --run automake-1.11$/;"	m
+AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = foreign$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall -O0 -DDEBUG$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g3 -Wall -O0 -pg$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CollecotrAndHits	getCollector.h	/^typedef struct _CollecotrAndHits CollecotrAndHits;$/;"	t	typeref:struct:_CollecotrAndHits
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"bas\\" -DPACKAGE_TARNAME=\\"bas\\" -DPACKAGE_VERSION=\\"1.0\\" -DPACKAGE_STRING=\\"bas\\ 1.0\\" -DPACKAGE_BUGREPORT=\\"qingdong.meng@ape-tech.com\\" -DPACKAGE=\\"bas\\" -DVERSION=\\"1.0\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\\".libs\/\\" -DHAVE_LIBEGG2=1 -DSTDC_HEADERS=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_UNISTD_H=1 -DHAVE__BOOL=1 -DHAVE_STDBOOL_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_SYS_TIME_H=1 -DHAVE_UNISTD_H=1 -DHAVE_ALARM=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MEMSET=1 -DHAVE_REGCOMP=1 -DHAVE_TZSET=1 -D_GNU_SOURCE=1$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(bas_fcgi_SOURCES)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EggStartNeeds	inputsDeal.h	/^typedef struct _EggStartNeeds EggStartNeeds;$/;"	t	typeref:struct:_EggStartNeeds
+Element	putInGstring.c	/^typedef struct _Element  Element;$/;"	t	typeref:struct:_Element	file:
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FIND_POSITION_STRUCT_H_	findPositionStruct.h	21;"	d
+FIND_STRINGS_WITHOUT_CASE_H_	findStringsWithoutCase.h	21;"	d
+G	config.c	/^G_CONFIG* G = NULL;$/;"	v
+GET_COLLECTOR_H_	getCollector.h	21;"	d
+GET_INPUT_STRUCT_H_	getInputStruct.h	21;"	d
+GET_TIME_STRINGS_H_	getTimeStrings.h	21;"	d
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+G_CONFIG	config.h	/^typedef struct _G_CONFIG G_CONFIG;$/;"	t	typeref:struct:_G_CONFIG
+HIGHTLIGHT_AND_SUMMARY_H_	hightlightAndSummary.h	21;"	d
+INC	log4ctest/Makefile	/^INC=$/;"	m
+INPUTS_DEAL_H_	inputsDeal.h	21;"	d
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+InputStruct	getInputStruct.h	/^typedef struct _InputStruct InputStruct;$/;"	t	typeref:struct:_InputStruct
+KeywordsList	pKeywords.c	/^typedef struct _KeywordsList KeywordsList;$/;"	t	typeref:struct:_KeywordsList	file:
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = -g3 -O0 -Wall -pg$/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBPATH	log4ctest/Makefile	/^LIBPATH=$/;"	m
+LIBS	Makefile	/^LIBS = -legg2 $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LOG	log4ctest/mylog.h	19;"	d
+LOG	mylog.h	38;"	d
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MYLOG_CATEGORY_NAME	log4ctest/mylog.h	7;"	d
+MYLOG_CATEGORY_NAME	mylog.h	26;"	d
+MYLOG_PRIORITY	log4ctest/mylog.h	8;"	d
+MYLOG_PRIORITY	mylog.h	27;"	d
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJS	log4ctest/Makefile	/^OBJS=main.o other.o mylog.o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = bas$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = qingdong.meng@ape-tech.com$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = bas$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = bas 1.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = bas$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 1.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+PUT_IN_GSTRING_H_	putInGstring.h	21;"	d
+P_KEYWORDS_H_	pKeywords.h	21;"	d
+Pageinfo	putInGstring.c	/^typedef struct _Pageinfo Pageinfo;$/;"	t	typeref:struct:_Pageinfo	file:
+PositionList	hightlightAndSummary.h	/^typedef struct _PositionList PositionList;$/;"	t	typeref:struct:_PositionList
+PositionListPoint	hightlightAndSummary.h	/^typedef struct _PositionListPoint PositionListPoint;$/;"	t	typeref:struct:_PositionListPoint
+PositionStruct	findPositionStruct.h	/^typedef struct _PositionStruct PositionStruct;$/;"	t	typeref:struct:_PositionStruct
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES = $(bas_fcgi_SOURCES)$/;"	m
+STRINGS_REPLACE_H_	stringsReplace.h	20;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+TARGET	log4ctest/Makefile	/^TARGET=log4ctest$/;"	m
+VERSION	Makefile	/^VERSION = 1.0$/;"	m
+_CONFIG_H	config.h	22;"	d
+_CollecotrAndHits	getCollector.h	/^struct _CollecotrAndHits$/;"	s
+_EggStartNeeds	inputsDeal.h	/^   struct _EggStartNeeds$/;"	s
+_Element	putInGstring.c	/^struct _Element$/;"	s	file:
+_G_CONFIG	config.h	/^struct _G_CONFIG$/;"	s
+_InputStruct	getInputStruct.h	/^struct _InputStruct$/;"	s
+_KeywordsList	pKeywords.c	/^struct _KeywordsList$/;"	s	file:
+_MYLOG_H_	log4ctest/mylog.h	2;"	d
+_MYLOG_H_	mylog.h	21;"	d
+_Pageinfo	putInGstring.c	/^struct _Pageinfo$/;"	s	file:
+_PositionList	hightlightAndSummary.h	/^struct _PositionList$/;"	s
+_PositionListPoint	hightlightAndSummary.h	/^struct _PositionListPoint$/;"	s
+_PositionStruct	findPositionStruct.h	/^struct _PositionStruct$/;"	s
+abs_builddir	Makefile	/^abs_builddir = \/ape\/Dev\/cvs\/ImRoBot5\/bas\/cgi$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/ape\/Dev\/cvs\/ImRoBot5\/bas\/cgi$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/ape\/Dev\/cvs\/ImRoBot5\/bas$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/ape\/Dev\/cvs\/ImRoBot5\/bas$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+addSpace	addQueryToEgg.c	/^addSpace(char* str,int len)$/;"	f	file:
+add_query	addQueryToEgg.c	/^add_query (HEGGQUERY eggQuery, char* field, char* key)$/;"	f
+all_null	inputsDeal.c	/^all_null ( char *strings )$/;"	f	file:
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_bas_fcgi_OBJECTS	Makefile	/^am_bas_fcgi_OBJECTS = bas_fcgi-main.$(OBJEXT) \\$/;"	m
+bas_fcgi_CFLAGS	Makefile	/^bas_fcgi_CFLAGS = $(glib_CFLAGS) -g -Wall -O0 -pg -I\/usr\/local\/include\/spdindex\/ -L\/usr\/log4c\/lib\/ -I\/usr\/log4c\/include \/usr\/local\/log4c\/lib\/liblog4c.so $/;"	m
+bas_fcgi_DEPENDENCIES	Makefile	/^bas_fcgi_DEPENDENCIES =$/;"	m
+bas_fcgi_LDADD	Makefile	/^bas_fcgi_LDADD = -lfcgi -lscholar -legg2 -lspdindex$/;"	m
+bas_fcgi_LINK	Makefile	/^bas_fcgi_LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+bas_fcgi_OBJECTS	Makefile	/^bas_fcgi_OBJECTS = $(am_bas_fcgi_OBJECTS)$/;"	m
+bas_fcgi_SOURCES	Makefile	/^bas_fcgi_SOURCES = main.c\\$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = bas.fcgi$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+calu	getTimeStrings.c	/^static char* calu(int i)$/;"	f	file:
+calu_list_lens	findPositionStruct.c	/^calu_list_lens (  PositionList* head )$/;"	f
+category	getInputStruct.h	/^    char* category;$/;"	m	struct:_InputStruct
+cnt	getCollector.h	/^    count_t cnt;$/;"	m	struct:_CollecotrAndHits
+content	putInGstring.c	/^    char* content;$/;"	m	struct:_Element	file:
+cppunit_CFLAGS	Makefile	/^cppunit_CFLAGS = -I\/usr\/local\/include  $/;"	m
+cppunit_LIBS	Makefile	/^cppunit_LIBS = -L\/usr\/local\/lib -lcppunit  $/;"	m
+creat_new_node	hightlightAndSummary.c	/^creat_new_node ( char* point, int lens )$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datetime	putInGstring.c	/^    char* datetime;$/;"	m	struct:_Element	file:
+defy_pos	pKeywords.c	/^    int defy_pos;$/;"	m	struct:_KeywordsList	file:
+delete_colloector	getCollector.c	/^delete_colloector ( CollecotrAndHits* collector )$/;"	f
+delete_position_list	hightlightAndSummary.c	/^delete_position_list(PositionList* head )$/;"	f
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+egg2Searcher_get_query	getCollector.c	/^egg2Searcher_get_query(char* key)  $/;"	f	file:
+egg_delete	inputsDeal.c	/^egg_delete ( EggStartNeeds* eggStartNeeds)$/;"	f
+egg_start	inputsDeal.c	/^egg_start (  )$/;"	f
+end	putInGstring.c	/^    int end;$/;"	m	struct:_Pageinfo	file:
+exchange_gstring_string	inputsDeal.c	/^exchange_gstring_string (GString* gStr )$/;"	f
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+find_position_and_insert	hightlightAndSummary.c	/^find_position_and_insert ( PositionListPoint* pointInfo, char* content, char* keywords, int lens,  int isByOrder )$/;"	f	file:
+find_strings_count	stringsReplace.c	/^find_strings_count ( char* pStrings, char* pFindStrings )$/;"	f
+find_without_case	findStringsWithoutCase.c	/^find_without_case (const char *content, const char *pkeywords)    \/\/如果是中文，原样输出 英文 则查找其在原文中到底具体字符的大小写$/;"	f
+format	log4ctest/mylog.c	/^const char *format = "[%10s][%4d][%10s()]: ";$/;"	v
+format	mylog.c	/^const char *format = "[%10s][%4d][%10s()]: ";$/;"	v
+fprintf	main.c	17;"	d	file:
+free_CONFIG	config.c	/^free_CONFIG (  )$/;"	f
+free_input_struct	getInputStruct.c	/^free_input_struct ( InputStruct* inputsStrings)$/;"	f
+free_list	pKeywords.c	/^free_list (GSList *list)$/;"	f	file:
+getTimeString	getTimeStrings.c	/^getTimeString(char* times, char* pCharA, char* pCharB)         $/;"	f
+get_change_by_case	hightlightAndSummary.c	/^get_change_by_case (const char *content, const char *pkeywords)    \/\/如果是中文，原样输出 英文 则查找其在原文中到底具体字符的大小写$/;"	f	file:
+get_colloector	getCollector.c	/^get_colloector ( InputStruct* inputStruct, HEGGINDEXSEARCHER  hIndexSearcher)$/;"	f
+get_dest	hightlightAndSummary.c	/^get_dest ( char* p_keywords, int isBigSize )$/;"	f	file:
+get_document	putInGstring.c	/^get_document (CollecotrAndHits* collector, HEGGINDEXREADER hIndexReader, int nums, int isLastOne, Element* element, GString*  pGstr, const char *keywords)$/;"	f	file:
+get_element	putInGstring.c	/^get_element ( Element* element, HEGGDOCUMENT lpEggDocument, char** pKeywords, size16_t* pkeySz, count_t num)$/;"	f	file:
+get_exact_whatis	findStringsWithoutCase.c	/^get_exact_whatis ( const char *content, const char *pkeywords )    \/\/根据原文中出现的英文单词 确定大小写$/;"	f	file:
+get_exact_whatis	hightlightAndSummary.c	/^get_exact_whatis ( const char *content, const char *pkeywords )    \/\/根据原文中出现的英文单词 确定大小写$/;"	f	file:
+get_input_struct	getInputStruct.c	/^get_input_struct ( char* inputsStrings )$/;"	f
+get_instead	hightlightAndSummary.c	/^get_instead ( char *pKeywords, int couts)$/;"	f	file:
+get_key	getInputStruct.c	/^get_key (char* head)$/;"	f	file:
+get_keywords	hightlightAndSummary.c	/^get_keywords ( char** pKeywords, size16_t* pkeySz, int num)$/;"	f	file:
+get_list	pKeywords.c	/^get_list ( char **pkeywords, size16_t *pkeySz, count_t num, const char *keywords)      \/\/获取关键字链表$/;"	f	file:
+get_order	pKeywords.c	/^get_order ( char **pkeywords, size16_t *pkeySz, count_t num, const char *keywords )    \/\/对关键字排序$/;"	f
+get_page_info	putInGstring.c	/^get_page_info (Pageinfo* pageInfo,  InputStruct* inputStruct,  count_t cnt)$/;"	f	file:
+get_param	main.c	18;"	d	file:
+get_position_list	hightlightAndSummary.c	/^get_position_list (PositionListPoint* pointInfo, char* content, char** pKeywords, size16_t* pkeySz, count_t num )$/;"	f	file:
+get_position_struct	findPositionStruct.c	/^ get_position_struct(PositionList* head, char* content)$/;"	f
+get_precise_position_char	findPositionStruct.c	/^get_precise_position_char (PositionList* head, int num)$/;"	f	file:
+get_precise_position_lens	findPositionStruct.c	/^get_precise_position_lens (PositionList* head, int num)$/;"	f	file:
+get_query	addQueryToEgg.c	/^get_query (InputStruct* inputStruct)$/;"	f
+get_result	findPositionStruct.c	/^get_result (PositionStruct* positionStruct, PositionList* head, char* content)$/;"	f	file:
+get_strings	inputsDeal.c	/^get_strings (char* inputStrings,EggStartNeeds* eggStartNeeds )$/;"	f
+get_strings_by_bit	findStringsWithoutCase.c	/^get_strings_by_bit (const char *pkeywords, const long long int num )        \/\/根据比特位对相应字符取反$/;"	f	file:
+get_strings_by_bit	hightlightAndSummary.c	/^get_strings_by_bit (const char *pkeywords, const long long int num )        \/\/根据比特位对相应字符取反$/;"	f	file:
+get_strings_from_doc	putInGstring.c	/^get_strings_from_doc ( HEGGDOCUMENT lpEggDocument, char* field )$/;"	f	file:
+get_summary	hightlightAndSummary.c	/^get_summary (char* content, char** pKeywords, size16_t* pkeySz, count_t num)$/;"	f
+get_utf_strings	findPositionStruct.c	/^get_utf_strings (char* start, char* content, int isFront)$/;"	f	file:
+glib_CFLAGS	Makefile	/^glib_CFLAGS = -I\/usr\/local\/include\/glib-2.0 -I\/usr\/local\/lib\/glib-2.0\/include  $/;"	m
+glib_LIBS	Makefile	/^glib_LIBS = -L\/usr\/local\/lib -lglib-2.0  $/;"	m
+hDirectory_bas	inputsDeal.h	/^    HEGGDIRECTORY hDirectory_bas;$/;"	m	struct:_EggStartNeeds
+hDirectory_bbs	inputsDeal.h	/^    HEGGDIRECTORY hDirectory_bbs;$/;"	m	struct:_EggStartNeeds
+hIndexReader_bas	inputsDeal.h	/^    HEGGINDEXREADER hIndexReader_bas;$/;"	m	struct:_EggStartNeeds
+hIndexReader_bbs	inputsDeal.h	/^    HEGGINDEXREADER hIndexReader_bbs;$/;"	m	struct:_EggStartNeeds
+hIndexSearcher_bas	inputsDeal.h	/^    HEGGINDEXSEARCHER hIndexSearcher_bas;$/;"	m	struct:_EggStartNeeds
+hIndexSearcher_bbs	inputsDeal.h	/^    HEGGINDEXSEARCHER hIndexSearcher_bbs;$/;"	m	struct:_EggStartNeeds
+hTopCollector	getCollector.h	/^    HEGGTOPCOLLECTOR hTopCollector;$/;"	m	struct:_CollecotrAndHits
+handle_request	main.c	/^void handle_request(FCGX_Request *request, EggStartNeeds* eggStartNeeds) $/;"	f
+head_point	hightlightAndSummary.h	/^    PositionList* head_point;$/;"	m	struct:_PositionListPoint
+hightlight_title	hightlightAndSummary.c	/^hightlight_title(char* title, char** pKeywords, size16_t* pkeySz, count_t num, int isBigSize)$/;"	f
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+insert_position	hightlightAndSummary.c	/^insert_position ( PositionListPoint* pointInfo, char* point, int lens,  int isByOrder)$/;"	f	file:
+insert_position_exact	hightlightAndSummary.c	/^insert_position_exact ( PositionListPoint* pointInfo, char* point, PositionList* needsToInsert)$/;"	f	file:
+insert_to_gstring	putInGstring.c	/^insert_to_gstring (Element* element,  GString*  pGstr, int isLastOne)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/ape\/Dev\/cvs\/ImRoBot5\/bas\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+is_anti	findStringsWithoutCase.c	/^is_anti ( const char key )$/;"	f	file:
+is_anti	hightlightAndSummary.c	/^is_anti ( const char key )$/;"	f	file:
+is_chinese	findPositionStruct.c	/^is_chinese ( char val )$/;"	f	file:
+is_chinese	getInputStruct.c	/^is_chinese ( char* head )$/;"	f
+is_english	findStringsWithoutCase.c	/^is_english ( const char *pkeywords )     \/\/判断是否存在英文字符$/;"	f	file:
+is_english	hightlightAndSummary.c	/^is_english ( const char *pkeywords )$/;"	f	file:
+is_in_array	getCollector.c	/^is_in_array ( char* key )$/;"	f	file:
+is_legal	inputsDeal.c	/^is_legal (InputStruct* inputStruct)   \/\/判断输入是否合法$/;"	f	file:
+is_position_legal	getInputStruct.c	/^is_position_legal (char* src, char* pointer)$/;"	f	file:
+keywords	getInputStruct.h	/^    char* keywords;$/;"	m	struct:_InputStruct
+last_point	hightlightAndSummary.h	/^    PositionList* last_point;$/;"	m	struct:_PositionListPoint
+lens	findPositionStruct.h	/^    int lens;$/;"	m	struct:_PositionStruct
+lens	hightlightAndSummary.h	/^    int lens;$/;"	m	struct:_PositionList
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libxml_CFLAGS	Makefile	/^libxml_CFLAGS = -I\/usr\/include\/libxml2  $/;"	m
+libxml_LIBS	Makefile	/^libxml_LIBS = -lxml2  $/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+log_message	log4ctest/mylog.c	/^void log_message(char* file, int line, const char* func,const char* a_format, ...) $/;"	f
+log_message	mylog.c	/^void log_message(char* file, int line, const char* func,const char* a_format, ...) $/;"	f
+lp_score_doc	getCollector.h	/^    HEGGSCOREDOC lp_score_doc;$/;"	m	struct:_CollecotrAndHits
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+main	log4ctest/main.c	/^int main(int argv, char **argc) {$/;"	f
+main	main.c	/^main ( int argc, char *argv[] )$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+my_comparator	pKeywords.c	/^my_comparator(gconstpointer item1, gconstpointer item2) {$/;"	f	file:
+mycat	log4ctest/mylog.c	/^log4c_category_t* mycat = NULL;$/;"	v
+mycat	mylog.c	/^log4c_category_t* mycat = NULL;$/;"	v
+mylog_fini	log4ctest/mylog.c	/^int mylog_fini()$/;"	f
+mylog_fini	mylog.c	/^int mylog_fini()$/;"	f
+mylog_init	log4ctest/mylog.c	/^int mylog_init()$/;"	f
+mylog_init	mylog.c	/^int mylog_init()$/;"	f
+next	hightlightAndSummary.h	/^    PositionList* next;$/;"	m	struct:_PositionList
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+op	config.h	/^    char *op;$/;"	m	struct:_G_CONFIG
+op	getInputStruct.h	/^    char* op;$/;"	m	struct:_InputStruct
+orderby	getInputStruct.h	/^    char* orderby;$/;"	m	struct:_InputStruct
+p_stu_spd	config.h	/^    spdPostStorage* p_stu_spd;$/;"	m	struct:_G_CONFIG
+page	getInputStruct.h	/^    int page; $/;"	m	struct:_InputStruct
+pagesize	getInputStruct.h	/^    int pagesize;$/;"	m	struct:_InputStruct
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/bas$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/bas$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/bas$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/bas$/;"	m
+position	findPositionStruct.h	/^    char* position;$/;"	m	struct:_PositionStruct
+position	hightlightAndSummary.h	/^    char* position;$/;"	m	struct:_PositionList
+position	pKeywords.c	/^    long long int position;$/;"	m	struct:_KeywordsList	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+print_end	putInGstring.c	/^print_end ( GString*  pGstr)$/;"	f	file:
+print_head	putInGstring.c	/^print_head (  GString*  pGstr, count_t cnt, InputStruct* inputStruct, float time)$/;"	f	file:
+print_null	inputsDeal.c	/^print_null (GString *p_gstr)$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+put_in_gstring	putInGstring.c	/^put_in_gstring ( CollecotrAndHits* collector, GString*  pGstr, HEGGINDEXREADER hIndexReader, InputStruct* inputStruct, float time, const char *keywords)$/;"	f
+replace_special_strings	putInGstring.c	/^replace_special_strings ( char* strings )$/;"	f	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+search_in_inputs	getInputStruct.c	/^search_in_inputs (char* inputsStrings,  char* field )$/;"	f	file:
+set_g_op	inputsDeal.c	/^set_g_op (char *op)  \/\/设置全局op$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sort_pkeywords	pKeywords.c	/^sort_pkeywords ( char **pkeywords, size16_t *pkeySz, count_t num, GSList *list)$/;"	f	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+start	putInGstring.c	/^    int start;$/;"	m	struct:_Pageinfo	file:
+start_CONFIG	config.c	/^start_CONFIG (  )$/;"	f
+strings	pKeywords.c	/^    char* strings;$/;"	m	struct:_KeywordsList	file:
+strings_lens	pKeywords.c	/^    int strings_lens;$/;"	m	struct:_KeywordsList	file:
+strings_replace	stringsReplace.c	/^strings_replace(char *pInput, char *pOutput, char *pSrc, char *pDst)$/;"	f
+strings_replace_with_free	stringsReplace.c	/^strings_replace_with_free (char* pStrings, char* pNeedReplace, char* pNew )$/;"	f
+strings_replace_without_free	stringsReplace.c	/^strings_replace_without_free (char* pStrings, char* pNeedReplace, char* pNew )$/;"	f
+subdir	Makefile	/^subdir = cgi$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+time	getInputStruct.h	/^    char* time;$/;"	m	struct:_InputStruct
+title	putInGstring.c	/^    char* title;$/;"	m	struct:_Element	file:
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+url	putInGstring.c	/^    char* url;$/;"	m	struct:_Element	file:
+utf8_change	getInputStruct.c	/^utf8_change (char* stringsInputs)$/;"	f

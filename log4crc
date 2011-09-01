@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE log4c SYSTEM "">
+<log4c version="1.2.1"> 
+
+<config> 
+<bufsize>0</bufsize> 
+<debug level="2"/> 
+<nocleanup>0</nocleanup> 
+<reread>1</reread> 
+</config> 
+
+<category name="root" priority="notice"/>
+<category name="log4c.examples.helloworld" priority="debug" appender="myrollingfileappender"/>
+
+<appender name="myrollingfileappender" type="rollingfile" logdir="./" prefix="mylogfile" layout="dated" rollingpolicy="myrollingpolicy" />
+<appender name="stdout" type="stream" layout="basic"/>
+    <layout name="basic" type="basic"/>
+    <layout name="dated" type="dated"/>
+        <rollingpolicy name="myrollingpolicy" type="sizewin" maxsize="10400" maxnum="10" />
+</log4c>
